@@ -59,7 +59,7 @@
 				<tr><td>Institucion:</td>
 					<td>
 					<%Institucion i= new Institucion(); %>
-						<%ResultSet rs=i.listarNombreInstituciones();  %>
+						<%ResultSet rs=i.listarNombreInstituciones(); //hola que tal %>
 						<select name="institucion">
 						<option value="23">Seleccione Institucion</option>
 						<%while(rs.next()){ 
